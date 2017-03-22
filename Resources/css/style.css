@@ -9,9 +9,91 @@ html{
     
     background-color: #fff;
     color: #555;
+<<<<<<< Updated upstream
     font-family: 'lato','Aria',sans-serif;
+=======
+    font-family: 'lato','Arial',sans-serif;
+>>>>>>> Stashed changes
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+<<<<<<< Updated upstream
+=======
+
+header{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),#000),url(img/portfolio_project.jpg);
+    background-size:cover;
+    height: 40vh;
+}
+
+.heading-text{
+    position:relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.83);
+    top: 10%
+        
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+
+
+.btn:link,
+.btn:visited {
+    display:inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration:none;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+    margin-top: 20%;
+    position:   sticky;
+    
+}
+
+.About-me:link,
+.About-me:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    
+}
+
+.Skills:link,
+.Skills:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+    
+}
+
+
+.About-me:hover,
+.About-me:active{
+    border: 1px solid #cf6d17;
+       
+}
+
+.Skills:hover,
+.Skills:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+    
+    
+>>>>>>> Stashed changes
 }
