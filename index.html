@@ -1,29 +1,329 @@
 <!DOCTYPE html>
 <html lan="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="Resources/vendor/normalize.css">
 
         <link rel="stylesheet" type="text/css" href="Resources/vendor/grid.css">
-
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css"> 
         <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
+        
+<link rel="apple-touch-icon" sizes="180x180" href="/Resources/css/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/Resources/css/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/Resources/css/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/Resources/css/favicons/manifest.json">
+<link rel="mask-icon" href="/Resources/css/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/Resources/css/favicons/favicon.ico">
+<meta name="msapplication-config" content="/Resources/css/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+  
         <title>My Portfolio website </title>
     </head>
     <body>
-
-    <h1>My Portfolio Website</h1>
-    
-
-        <header>
-            <div class="heading-text">
-            <h1>Danish Saleem</h1>
-                <h2>Full Stack Software Engineer</h2>
+            <header>
+                <div class="heading-text">
+                <h1>Danish Saleem</h1>
+                    <h4><b><em>Full Stack Software Engineer</em></b><br>
+                        <a href="https://www.linkedin.com/in/danish-saleem-65442310/" target="_blank"><i class="ion-social-linkedin icon-all"></i></a>
+                        <a href="https://www.linkedin.com/in/danish-saleem-65442310/"><i class="ion-social-github icon-all"></i></a>
+                        
+                    
+                    
+                    
+                    </h4>
                 </div>
                 <div class="myphoto">
                 </div>
-                <a class="btn About-me" href="#">About me</a>
-                <a class="btn Skills" href="#">Skills</a>
-        </header>       
+            
+                <nav>
+                    <div class="row">
+                        
+                        <ul class="main-nav">
+                            <li><a href=#A>About me</a></li>
+                            <li><a href="#S">Skills</a></li>
+                            <li><a href="#P">Projects</a></li>
+                            <li><a href="#M">My services</a></li>
+                            <li><a href="#C">Contact me</a></li>
+                    
+                    
+                        </ul>
+                
+                
+                    </div>
+                </nav>
+            
+            </header> 
+        
+        <section class="section-features">
+            <div class="row">
+                <h2 id="A">About me</h2>
+            </div>
+                <p class="Aboutme">
+A computer engineer with experience in wireless communication industry. I am currently studying a full time bootcamp style course in web development at Coderfactory with an aim to become a full time software engineer. I am drawn to software development because of the passion to learn different technologies. I am curious about new technologies and want to develop innovative solutions to different problems with major focus on developing softwares in ruby on rails and Javascript.
+                
+                </p>
+        </section>
+                
+                
+                <section class="resume">
+                    <div class="row">
+                        <h2>Resume</h2>
+                    </div>
+                    <figure>
+                        <img src="Resources/css/resume.svg">
+                    </figure>
 
-    </body>
-</html>
+        </section>
+        
+        <section class="projects">
+            <h2 id="P">Projects</h2>
+                <p>
+                    <ul class="projects-showcase">
+                        <li>
+                            <figure class="project-photo">
+                                <img src="Resources/css/img/Inventory-mgt.jpg">
+                                <figcaption>Inventory Managment System</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="project-photo">
+                                <img src="Resources/css/img/Portfolio-website.png">
+                                <figcaption>My Portfolio Website</figcaption>
+                            </figure>
+                        </li>
+            
+                    </ul>
+            
+        </section>
+        
+        <section class="skills">
+            <div class="row">
+                <h2 id="S">Skills</h2>
+            </div>
+                <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/python-original.svg" alt="Python">
+                <h3>Python</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/nodejs-original.svg" alt="nodejs">
+                <h3>Nodejs</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/angularjs-original.svg" alt="angularjs">
+                <h3>Angularjs</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/css3-original.svg" alt="css">
+                <h3>CSS</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/javascript-original.svg" alt="javascript">
+                <h3>JavaScript</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/ruby-original.svg" alt="Ruby">
+                <h3>Ruby</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/rails-original-wordmark.svg" alt="Ruby on rails">
+                <h3>Ruby on rails</h3>
+                </div>
+            <div class="col span-1-of-5 box">
+                
+                <img src="Resources/skills/react-original.svg" alt="React">
+                <h3>React</h3>
+                </div>
+            
+        </section>
+                
+                
+                
+<!--------------                
+                
+          <section class="myservices">
+              <div class="row">
+            <h2 id="M">My Services</h2>
+              </div>
+    
+              <div class="col span-1-of-1 box">      
+            <img src="Resources/css/img/websitedesign.jpg" alt="Web Design">
+                  <h3>Web Design</h3>
+              </div>
+              <div class="col span-1-of-1 box">      
+            <img src="Resources/css/img/webdevelopment.jpg" alt="Web Development">
+                  <h3>Web Development</h3>
+              </div>
+              <div class="col span-1-of-1 box">      
+            <img src="Resources/css/img/softwaredevelopment.jpg" alt="Software Development">
+                  <h3>Software Development</h3>
+              </div>
+              
+            
+        </section>      
+                
+                
+                
+                
+                
+                
+                
+        
+        <section class="section-form">
+        <div class="row">
+            <h2 id = "C">Contact me </h2>
+            </div>
+            
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Name </label>
+                        
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Email </label>
+                        
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                        
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Message </label>   
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> &nbsp; </label>   
+                    </div>
+                    <div class="col span-2-of-3">
+                    <input type="submit" value="Send it">
+                    </div>
+                </div>
+            
+            </form>
+            </div>
+        
+        </section>
+        
+    <footer>
+        
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="socail-links">
+                    <li><a href="#"></a></li>
+                
+                
+                </ul>
+            
+            
+            </div>
+        
+        </div>
+        
+        </footer>
+----------------------------->
+            
+            <section class="myservices">
+              <div class="row">
+            <h2 id="M">My Services</h2>
+              </div>
+                <ul>
+                     
+            <li><img src="Resources/css/img/websitedesign.jpg" alt="Web Design">
+                  
+                    </li>
+                    
+                  
+            <li><img src="Resources/css/img/webdevelopment.jpg" alt="Web Development">
+                 
+                    </li>
+                    
+                
+            <li><img src="Resources/css/img/softwaredevelopment.jpg" alt="Software Development">
+                  
+                    </li>
+                </ul>
+            </section>
+        
+        
+        <section class="section-form">
+        <div class="row">
+            <h2 id = "C">Contact me </h2>
+            </div>
+            
+            <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Name </label>
+                        
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Email </label>
+                        
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                        
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> Message </label>   
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> &nbsp; </label>   
+                    </div>
+                    <div class="col span-2-of-3">
+                    <input type="submit" value="Send it">
+                    </div>
+                </div>
+            
+            </form>
+            </div>
+        
+        </section>
+        
+        
+                </body>
+        </html>
+        
+        
+                
+        

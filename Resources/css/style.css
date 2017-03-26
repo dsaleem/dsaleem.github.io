@@ -1,3 +1,9 @@
+/*------------------------------------------*/
+/* BASIC SETUP*/
+/*------------------------------------------*/
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +11,8 @@
     
 }
 
-html{
+html,
+body{
     
     background-color: #fff;
     color: #555;
@@ -17,83 +24,311 @@ html{
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+    
 }
 
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display:block;
+    height: 0;
+    visibility: hidden;
+    
+}
 
+/*------------------------------------------*/
+/* HEADERS*/
+/*------------------------------------------*/
 
 header{
     
     background-image:linear-gradient(rgba(0, 0, 0, 0.12),#000),url(img/portfolio_project.jpg);
     background-size:cover;
-    height: 40vh;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin:0;
 }
 
 .heading-text{
-    position:relative;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.83);
-    top: 10%
+    position:absolute;
+    width: 1140;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
         
 }
-
-h1{
-    margin: 0;
-    margin-bottom: 20px;
-    color: #fff;
+h1,h2,h3{
     font-size: 200%;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
     
 }
 
-
-.btn:link,
-.btn:visited {
-    display:inline-block;
-    padding: 5px 10px;
-    font-weight: 300;
-    text-decoration:none;
-    border-radius: 200px;
-    transition: background-color 0.2s,border 0.2s,color 0.2s;
-    margin-top: 20%;
-    position:   sticky;
-    
-}
-
-.About-me:link,
-.About-me:visited{
-    border: 1px solid #e67e22;
-    color: #e67e22;
-    
-}
-
-.Skills:link,
-.Skills:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
-    
-}
-
-.btn:hover,
-.btn:active{
-    background-color: #cf6d17;
-    
-}
-
-
-.About-me:hover,
-.About-me:active{
-    border: 1px solid #cf6d17;
-       
-}
-
-.Skills:hover,
-.Skills:active {
-    border: 1px solid #cf6d17;
+h1{
+    margin:0;
     color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2{
     
+    font-size: 100%;
+    word-spacing: 2px;
+    text-align:center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    
+    
+}
+.services h3{
+    font-size: 90%;
+    
+}
+
+h4{
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+
+.skills h2{
+    margin-top:400px;
+}
+
+
+/*--------------NAV BAR --------------*/
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top: 55px;
+}
+.main-nav li {
+    float:right;
+    display:inline-block;
+    margin-left: 40px;   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+   
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+    
+}
+
+.aboutme resume{
+    
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+}
+.aboutme{
+    
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+}
+p{
+    margin-bottom: 2%;
+}
+
+
+/*------------------------------------------*/
+/* REUSABLE COMPONENTS*/
+/*------------------------------------------*/
+
+
+.row{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    
+    padding: 80px 0;   
+    
+}
+
+.box{
+   
+    padding: 1%;
+    text-align: center;
+}
+    
+/*------------------------------------------*/
+/* Projects*/
+/*------------------------------------------*/
+
+.projects-showcase{
+    list-style: none;
+    width: 100%;
+   
+}
+
+.projects-showcase li{
+    display:block;
+    float:left;
+    width:50%;
+    height:50vh;
+}   
+
+.project-photo{
+    width:100%;
+    margin:0;
+}
+
+.project-photo img{
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+    height:400px;
+    width:auto;
+    margin-right: 10px;  
+    
+}
+.project-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    
+}
+
+figcaption{
+    display:block;
+    text-align:center;
+}
+
+
+/*------------------------------------------*/
+/* My services*/
+/*------------------------------------------*/
+
+.myservices{
+    margin-top: 300px;
+    height:10vh;
+    margin-left:20%;
+    margin-right:20%;
+    
+}
+
+
+.myservices ul{
+    list-style:none;
+    display:block;
+    float:left;
+    width:100%;
+    height:100vh;
+    text-align: center;
+}  
+ 
+.myservices img{
+    width:50%;
+    height:30vh;
+    float:none;
+    text-align: center;
+    margin-right:5%;
+    transform: scale(1);
+    transition: transform 0.5s,opacity 0.5s;
+    opacity:0.7;
+    
+    
+}
+
+.myservices img:hover{
+    transform:scale(1.03);
+    opacity: 1;
+}
+/*------------------------------------------*/
+/* Skills*/
+/*------------------------------------------*/
     
 
+.box img{
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+    width:30%;
+    height:auto;
+    margin-bottom:15px;
 }
+.box img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+/*------------------------------------------*/
+/* FORM*/
+/*------------------------------------------*/
+
+.section-form{
+    margin-top: 700px;
+    height:10vh;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:100px;       
+    
+}
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width:100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+textarea{
+    height:100px;
+}
+
+.resume{
+    text-align:center;
+}
+
+
+/*------------------------------------------*/
+/* Social Icon*/
+/*------------------------------------------*/
+
+.icon-all{
+    font-size:200%;
+}
+
+*------------------------------------------*/
+/* Myservices*/
+/*------------------------------------------*/
