@@ -47,7 +47,7 @@ _Contact me_:
 
 At the end of Web page i have built a contact form so that concern viewer can contact me.
 
-**Tools Used for building this website
+**Tools Used for building this website**
 
 [Figma]!https://www.figma.com/file/QCzAaGAzsLSo2oKXPx1Yj22I/Portfolio-Website. 
 Color Selection: White and Orange  
@@ -59,10 +59,8 @@ CSS Fluid Grid and Normalize CSS
 
 **FUTURE IMPROVEMENTS / TODO**
 
-Optimize the responsive layout
-Include further detail sections for Projects/Skills and Services
-Include Personal logo design
-
-[you can check my website here!](https://dsaleem.github.io)
-
+Optimize the responsive layout. 
+Include further detail sections for Projects/Skills and Services. 
+Include Personal logo design. 
+[you can check my website here!](https://dsaleem.github.io). 
 
