@@ -49,12 +49,13 @@ At the end of Web page i have built a contact form so that concern viewer can co
 
 **Tools Used for building this website
 
-[Cilck here to see Figma sketches]!https://www.figma.com/file/QCzAaGAzsLSo2oKXPx1Yj22I/Portfolio-Website ..
-Color Selection: White and Orange..
-Fonts: used google fonts:Lato..
-FavIcons..
-Metatags..
-CSS Fluid Grid and Normalize CSS..
+[Figma]!https://www.figma.com/file/QCzAaGAzsLSo2oKXPx1Yj22I/Portfolio-Website. 
+Color Selection: White and Orange  
+Fonts: used google fonts:Lato  
+FavIcons  
+Metatags  
+CSS Fluid Grid and Normalize CSS  
+
 
 **FUTURE IMPROVEMENTS / TODO**
 
