@@ -51,11 +51,12 @@ At the end of Web page i have built a contact form so that concern viewer can co
 
 Figma
 Color Selection: White and Orange
+Fonts: used google fonts:Lato
 FavIcons
 Metatags
 CSS Fluid Grid and Normalize CSS
 
-FUTURE IMPROVEMENTS / TODO
+**FUTURE IMPROVEMENTS / TODO**
 
 Optimize the responsive layout
 Include further detail sections for Projects/Skills and Services
