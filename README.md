@@ -11,13 +11,13 @@ At this stage i have built the website on HTML/CSS only and have not used Javasc
 
 I have used figma to start my initial website design and layout , i have devided my portfolio website into different sections as follows :
 
-1 - Index Page 
-2 - About me Section
-3 - Resume Section
-4 - Projects section
-4 - Skills section
-5 - My services section
-6 - Contact me
+*Index Page 
+*About me Section
+*Resume Section
+*Projects section
+*Skills section
+*My services section
+*Contact me
 
 **Details of each section**:
 
@@ -49,17 +49,19 @@ At the end of Web page i have built a contact form so that concern viewer can co
 
 **Tools Used for building this website
 
-Figma
-Color Selection: White and Orange
-Fonts: used google fonts:Lato
-FavIcons
-Metatags
-CSS Fluid Grid and Normalize CSS
+[Cilck here to see Figma sketches]!https://www.figma.com/file/QCzAaGAzsLSo2oKXPx1Yj22I/Portfolio-Website ..
+Color Selection: White and Orange..
+Fonts: used google fonts:Lato..
+FavIcons..
+Metatags..
+CSS Fluid Grid and Normalize CSS..
 
 **FUTURE IMPROVEMENTS / TODO**
 
 Optimize the responsive layout
 Include further detail sections for Projects/Skills and Services
 Include Personal logo design
+
+[you can check my website here!](https://dsaleem.github.io)
 
 
